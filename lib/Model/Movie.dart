@@ -13,5 +13,7 @@ class Movie {
     );
   }
 
+  String get posterUrl => "https://image.tmdb.org/t/p/w500/${this.posterPath}";
+
 
 }

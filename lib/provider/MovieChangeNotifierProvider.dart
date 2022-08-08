@@ -15,7 +15,5 @@ class MovieChangeNotifierProvider extends ChangeNotifier {
     _movies = listMovies;
     //print("값은 $_movies");
     notifyListeners(); // 데이터가 새롭게 불려들여왔으니 반영해라 라는 뜻
-
-
   }
 }
